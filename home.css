@@ -58,9 +58,10 @@ ul {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .section-header {
@@ -394,14 +395,11 @@ ul {
 }
 
 .video-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: var(--shadow-lg);
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    border-radius: 0;
 }
 
 .video-container video {
