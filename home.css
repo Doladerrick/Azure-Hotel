@@ -397,7 +397,7 @@ ul {
 .video-container {
     position: relative;
     width: 100vw;
-    height: 100vw;
+    height: 60vh;
     overflow: hidden;
     border-radius: 0;
 }
